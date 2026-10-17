@@ -1,0 +1,66 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #1f1f1f;
+  background: #f8f8f8;
+}
+
+header,
+footer {
+  background: #111;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+article {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
